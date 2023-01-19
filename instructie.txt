@@ -1,0 +1,4 @@
+git init => maak een repo aan
+git add <naam file> => voeg bestand toe aan staging area
+git add . => voeg alle untracked files toe aan staging area
+git commit -m "beschrijving commit" => commit het bestand
