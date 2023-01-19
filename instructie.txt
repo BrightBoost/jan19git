@@ -22,3 +22,13 @@ Git checkout -b <naam> => maak een nieuwe branch en wissel ernaar
 
 Daarna koppel die branch weer met set-upstream
 
+Om te mergen:
+Checkout de branch naar waar je wil mergen, bijv git checkout main
+Dan: git merge <naam van branch die je er in wil mergen>
+Branch weggooien: git branch -d <naam>
+
+Alle branches zien, ook remote: git branch -a
+
+Mooie overview van branch tree:
+git log --pretty=oneline --graph --decorate --all
+
