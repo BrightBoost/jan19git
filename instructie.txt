@@ -5,5 +5,20 @@ git commit -m "beschrijving commit" => commit het bestand
 
 git remote add origin <remote .git link> => connect je repo aan een remote, die we lokaal origin noemen
 
-Daarna om te pushen:
+Daarna om te pushen de eerste keer:
 git push --set-upstream origin main 
+
+Daarna als je wil pushen: 
+git push
+
+https://github.com/BrightBoost/wiljan.git
+https://github.com/BrightBoost/raoul.git
+
+Git branch => laat branches zien
+Git branch <naam> => maak een nieuwe branch aan die <naam> heet
+
+Git checkout <naam branch> => wissel naar die branch
+Git checkout -b <naam> => maak een nieuwe branch en wissel ernaar
+
+Daarna koppel die branch weer met set-upstream
+
