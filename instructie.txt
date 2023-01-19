@@ -17,8 +17,8 @@ https://github.com/BrightBoost/raoul.git
 Git branch => laat branches zien
 Git branch <naam> => maak een nieuwe branch aan die <naam> heet
 
-Git checkout <naam branch> => wissel naar die branch
-Git checkout -b <naam> => maak een nieuwe branch en wissel ernaar
+Git checkout <naam> => wissel naar branch 
+Git checkout -b <naam> => maak een nieuwe branch aan en wissel ernaar
 
-Daarna koppel die branch weer met set-upstream
-
+Voor eerste keer pushen nieuwe branch dan heb je weer nodig:
+git push --set-upstream origin <naam> 
