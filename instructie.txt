@@ -35,3 +35,9 @@ git log --pretty=oneline --graph --decorate --all
 Om een repo van GitHub op je computer te krijgen:
 - stap 1: navigeer in je command line naar de parent folder (waar de repo moet komen)
 - stap 2: git clone <git link, bijv https://github.com/BrightBoost/jan19git.git>
+
+Om een bestand te negeren:
+Maak een .gitignore aan
+Zet het bestand (of patroon) er in
+Als je het bestand al gecommit had: git rm --cached <naam>
+Als je het bestand al gestaged (add) had: git restore --staged <naam>
