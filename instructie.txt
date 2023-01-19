@@ -32,3 +32,6 @@ Alle branches zien, ook remote: git branch -a
 Mooie overview van branch tree:
 git log --pretty=oneline --graph --decorate --all
 
+Om een repo van GitHub op je computer te krijgen:
+- stap 1: navigeer in je command line naar de parent folder (waar de repo moet komen)
+- stap 2: git clone <git link, bijv https://github.com/BrightBoost/jan19git.git>
