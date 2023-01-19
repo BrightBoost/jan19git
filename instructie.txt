@@ -2,3 +2,8 @@ git init => maak een repo aan
 git add <naam file> => voeg bestand toe aan staging area
 git add . => voeg alle untracked files toe aan staging area
 git commit -m "beschrijving commit" => commit het bestand
+
+git remote add origin <remote .git link> => connect je repo aan een remote, die we lokaal origin noemen
+
+Daarna om te pushen:
+git push --set-upstream origin main 
