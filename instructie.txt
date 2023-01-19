@@ -16,3 +16,9 @@ https://github.com/BrightBoost/raoul.git
 
 Git branch => laat branches zien
 Git branch <naam> => maak een nieuwe branch aan die <naam> heet
+
+Git checkout <naam branch> => wissel naar die branch
+Git checkout -b <naam> => maak een nieuwe branch en wissel ernaar
+
+Daarna koppel die branch weer met set-upstream
+
